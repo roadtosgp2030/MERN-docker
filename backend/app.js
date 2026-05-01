@@ -79,7 +79,7 @@ mongoose
   .connect(mongoUri)
   .then(() => {
     console.log('CONNECTED TO MONGODB!!');
-    app.listen(5000);
+    app.listen(80);
   })
   .catch(err => {
     console.error('FAILED TO CONNECT TO MONGODB');
